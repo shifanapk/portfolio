@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+</head>
+
+<body>
+    <header class="header">
+        <a href="#home" class="logo">Fathima <span>Shifana P</span></a>
+
+        <i class="bx bx-menu" id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <button class="gradient-btn">Contact Me</button>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hi, Its<span> Fathima Shifana P</span></h1>
+            <h3>I'm a <span>Web Developer</span></h3>
+            <p>| IT Graduate, GEC Palakkad🎓 | Front-End Enthusiast |</p>
+
+            <div class="social-icons">
+                <a href="https://github.com/shifanapk"><i class="bx bxl-github"></i></a>
+                <a href="https://linkedin.com/in/fathimashifanap-a05a18314"><i class="bx bxl-linkedin-square"></i></a>
+                <a href="mailto:fathimashifanapk53@gmail.com"><i class="bx bxs-file-blank"></i></a>
+                <a href="https://instagram.com/fathimashifanapk._?igsh=bDdjaHptZjZ2EJfP"><i
+                        class="bx bxl-instagram-alt"></i></a>
+            </div>
+        </div>
+
+        <div class="home-img">
+            <img src="images/mee-Photoroom.png" alt="">
+        </div>
+    </section>
+
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/mee-Photoroom.png" alt="">
+
+        </div>
+        <div class="about-content">
+            <h2>About <span>Me</span></h2>
+            <p>I am a recent graduate in Information Technology from GEC Palakkad with a deep interest in web
+                development. Throughout my studies, I developed a strong proficiency in front-end technologies like
+                HTML, CSS, and JavaScript.</p>
+
+            <p>In addition to my front-end expertise, I have a solid understanding of back-end frameworks such as
+                Node.js and Express. I am passionate about expanding my knowledge and continuously improving my skill
+                set. With a keen eye for detail and a focus on design, I strive to create aesthetically pleasing and
+                functional web applications that meet both client and user needs.
+            </p>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <h2 class="heading">Services</h2>
+
+        <div class="services-container">
+            <div class="service-box">
+                <div class="service-info">
+                    <i class="bx bx-code"></i>
+                    <h4>Front-end Development</h4>
+                    <p>I create modern and responsive websites using the latest technologies like HTML, CSS, and
+                        JavaScript,along with modern frameworks like React, to create responsive and visually appealing
+                        user interfaces</p>
+                </div>
+            </div>
+
+            <div class="service-box">
+                <div class="service-info">
+                    <i class="bx bx-code-curly"></i>
+                    <h4>Back-end Development</h4>
+                    <p>Building robust backend systems using technologies like Node.js and Express.js. Develop
+                        efficient APIs that facilitate seamless communication between the client and server.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <h2 class="heading">Projects</h2>
+        <div class="projects-box">
+            <div class="project-card">
+                <img src="images/project1.png" alt="">
+                <h3>Yelp-Camp</h3>
+                <a href="https://github.com/shifanapk/yelpcamp-project" target="_blank" class="btn-success">Review
+                    Project</a>
+            </div>
+
+            <div class="project-card">
+                <img src="images/project6.png" alt="">
+                <h3>Netflix Clone</h3>
+                <a href="https://netflixclone-pu4sz0y9y-fathima-shifana-ps-projects.vercel.app/" target="_blank"
+                    class="btn-success">Review
+                    Project</a>
+            </div>
+
+            <div class="project-card">
+                <img src="images/project3.png" alt="">
+                <h3>iChat</h3>
+                <a href="https://melted-foregoing-court.glitch.me" target="_blank" class="btn-success">Review
+                    Project</a>
+            </div>
+
+            <div class="project-card">
+                <img src="images/project4.png" alt="">
+                <h3>Image Search</h3>
+                <a href="https://exultant-hazel-freesia.glitch.me" target="_blank" class="btn-success">Review
+                    Project</a>
+            </div>
+
+            <div class="project-card">
+                <img src="images/project5.png" alt="">
+                <h3>Rhythm Box</h3>
+                <a href="https://rhythmbox.vercel.app/" target="_blank" class="btn-success">Review Project</a>
+            </div>
+
+            <div class="project-card">
+                <img src="images/project2.png" alt="">
+                <h3>Eye Commerce</h3>
+                <a href="https://main-project-liart.vercel.app/" target="_blank" class="btn-success">Review Project</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+
+        <form id="submit-form" action="">
+            <div class="input-group">
+                <div class="input-box">
+                    <input type="text" placeholder="Name" id="name" name="name" required>
+                    <input type="email" placeholder="Email" id="email" name="email" required>
+                </div>
+
+                <div class="input-group-2">
+                    <textarea name="" id="" placeholder="Your Message" rows="10" cols="30" id="message"
+                        name="message"></textarea>
+                    <input type="submit" value="Submit" class="btn">
+                </div>
+            </div>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="social-icons">
+            <a href="#"><i class="bx bxl-github"></i></a>
+            <a href="#"><i class="bx bxl-linkedin-square"></i></a>
+            <a href="#"><i class="bx bxl-instagram-alt"></i></a>
+            <a href="#"><i class="bx bxs-envelope"></i></a>
+        </div>
+
+        <ul class="list">
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <p class="copyright">&copy; 2024 Fathima Shifana P|All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        $("#submit-form").submit((e) => {
+            e.preventDefault()
+            $.ajax({
+                url: "https://script.google.com/macros/s/AKfycbwJlTD__Pnv62pcTxgP8De9aZcE5Zv0ipFdldSRT_mczAUX5tDAoNIrfW__OPxhhGcR/exec",
+                data: $("#submit-form").serialize(),
+                method: "post",
+                success: function (response) {
+                    alert("Form submitted successfully")
+                    window.location.reload()
+                    //window.location.href="https://google.com"
+                },
+                error: function (err) {
+                    alert("Something Error")
+
+                }
+            })
+        })
+    </script>
+
+</body>
+
+</html>
