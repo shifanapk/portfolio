@@ -144,6 +144,7 @@ section {
 
 .home-img img {
     width: 34vw;
+    border-radius:50%;
     box-shadow: 0 0 20px var(--main-color);
     transition: 0.4s ease-in-out;
     margin-top: 4.8rem;
@@ -509,7 +510,7 @@ section {
     }
 
     .home-img {
-        width: 70vw;
+        width: 68vw;
     }
 
     .about {
