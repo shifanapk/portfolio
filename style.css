@@ -125,15 +125,15 @@ section {
 }
 
 .home-content h1 {
-    font-size: 8rem;
-    font-weight: 700;
+    font-size: 6rem;
+    font-weight: 600;
     margin-top: 1.5rem;
     line-height: 1;
 }
 
 .home-content h3 {
     margin: 1rem 0;
-    font-size: 4rem;
+    font-size: 3.5rem;
 }
 
 .home-content p {
@@ -144,7 +144,6 @@ section {
 
 .home-img img {
     width: 34vw;
-    border-radius: 50%;
     box-shadow: 0 0 20px var(--main-color);
     transition: 0.4s ease-in-out;
     margin-top: 4.8rem;
