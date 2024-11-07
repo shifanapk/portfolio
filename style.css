@@ -461,13 +461,13 @@ section {
     box-shadow: 0 0 25px var(--main-color);
 }
 
-@media(max-width:1285) {
+@media(max-width:1285px) {
     #menu-icon {
         display: block;
     }
 
     .navbar {
-        position: absolute;
+        position: fixed;
         top: 100%;
         right: 0;
         width: 50%;
@@ -476,6 +476,7 @@ section {
         border-bottom-left-radius: 2rem;
         border-left: 2px solid var(--main-color);
         border-bottom: 2px solid var(--main-color);
+        display: none;
 
     }
 
@@ -520,7 +521,7 @@ section {
         margin: 2rem 0;
     }
 
-    .about img {
+    .about-img img {
         width: 52vw;
     }
 
