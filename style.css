@@ -478,7 +478,7 @@ section {
         border-bottom-left-radius: 2rem;
         border-left: 2px solid var(--main-color);
         border-bottom: 2px solid var(--main-color);
-        display: none;
+    
 
     }
 
@@ -489,9 +489,10 @@ section {
         color: var(--text-color);
     }
 
-    .navbar.active {
-        display: block;
-    }
+   .navbar.active {
+    display: block !important;
+}
+
 
     .gradient-btn {
         display: none;
