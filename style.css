@@ -463,7 +463,7 @@ section {
     box-shadow: 0 0 25px var(--main-color);
 }
 
-@media(max-width:1285px) {
+@media(max-width:768px) {
     #menu-icon {
         display: block;
     }
